@@ -53,6 +53,7 @@ def print_how_to():
   print "This program must be run with exactly ONE of the following options"
   print "-c <HOSTNAME>  : to connect to <HOSTNAME> on tcp port 9999"
   print "-s             : to run a server listening on tcp port 9999"
+  print "debug"
 
 def sigint_handler(signal, frame):
   logger.debug("SIGINT Captured! Killing")
